@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  #给服务取个别名
+spring:
+  application:
+    name: web-student
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+#默认的注册中心
